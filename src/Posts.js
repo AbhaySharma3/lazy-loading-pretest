@@ -21,7 +21,7 @@ export const Posts = () => {
             );
             console.log(data);
             resolve(data);
-        }, 3000);
+        }, 1000);
         });
     };
     const { data, loading } = useLazyLoad({ triggerRef, onGrabData });
